@@ -2,7 +2,7 @@
 
 Trabalho Prática 03 — Arquitetura de Software (ADS, Bloco IV 2026.2)
 
-**Integrantes:** _(preencher com os nomes do grupo)_
+**Integrantes:** _(Gustavo Willian de Carvalho Silva , Guilherme Gabriel Amorim, Samuel Lins Albuquerque e Davi Augusto Freitas de Oliveira)_
 
 ## Modelo de negócio
 

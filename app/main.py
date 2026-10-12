@@ -4,7 +4,7 @@ from app.routers import pets, tutores
 
 app = FastAPI(
     title="API da Clínica Veterinária",
-    description="Gerencia tutores e seus pets (Trabalho Prática 03).",
+    description="Gerencia tutores e seus pets.",
     version="1.0.0",
 )
 
