@@ -78,3 +78,23 @@ alembic upgrade head
 | DELETE | `/pets/{id}` | Remove pet | 204 / 404 |
 
 Dados inválidos retornam **422** automaticamente (validação do Pydantic).
+
+## Exemplos de uso
+
+A documentação interativa da API está disponível no Swagger, em `http://127.0.0.1:8000/docs`, após iniciar o servidor.
+
+### Consultar tutores
+
+Utilize a rota `GET /tutores/` para listar os tutores cadastrados.
+
+### Consultar pets de um tutor
+
+Utilize a rota `GET /tutores/{id}/pets`, substituindo `{id}` pelo identificador do tutor desejado.
+
+### Filtrar pets por espécie
+
+Utilize a rota `GET /pets/?especie=Cachorro` para consultar os pets da espécie informada.
+
+### Testar os endpoints
+
+No Swagger, é possível visualizar os endpoints disponíveis, informar os parâmetros necessários e executar requisições para verificar as respostas da API.
